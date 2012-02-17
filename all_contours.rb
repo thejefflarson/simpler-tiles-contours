@@ -13,7 +13,7 @@ map = SimplerTiles::Map.new do |m|
   Dir["#{ROOT}/data/*.shp"].each do |shp|
     m.layer shp do |l|
       l.query "select * from '#{File.basename shp, '.shp'}'" do |q|
-        q.styles "stroke" => "#11111166",
+        q.styles "stroke" => "#11111144",
               "line-join" => "round",
                  "weight" => "0.1"
       end
