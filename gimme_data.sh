@@ -29,7 +29,7 @@ contour_em () {
   for file in W140N90.DEM W100N90.DEM W060N90.DEM W140N40.DEM W100N40.DEM W060N40.DEM
   do
     echo "Processing $file"
-    gdal_contour $file `basename $file .DEM`.shp -i 10
+    gdal_contour $file `basename $file .DEM`.shp -i 100
   done
   cd $WD
 }

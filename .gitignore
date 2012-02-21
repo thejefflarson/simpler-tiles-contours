@@ -1,1 +1,4 @@
-data
+data/W*
+data/A*
+data/E*
+data/*.tar.gz
