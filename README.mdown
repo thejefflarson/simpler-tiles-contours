@@ -1,0 +1,8 @@
+Make a map just like this one:
+
+![contours](https://github.com/thejefflarson/simpler-tiles-contours/raw/master/out.png)
+
+Usage:
+
+    $ sh ./gimme_data.sh
+    $ ruby ./all_contours.rg
